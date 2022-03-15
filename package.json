@@ -35,9 +35,9 @@
     "ajv": "^6.12.3",
     "bignumber.js": "^9.0.0",
     "cids": "^1.0.0",
-    "fortcake-config-files": "fortcake/fortcake-config-files",
     "copy-to-clipboard": "^3.2.0",
     "ethers": "^5.0.7",
+    "fortcake-config-files": "fortcake/fortcake-config-files",
     "fortcake-uikit": "fortcake/fortcake-uikit-v1",
     "i18next": "^15.0.9",
     "i18next-browser-languagedetector": "^3.0.1",
@@ -90,7 +90,7 @@
     "lint:fix": "eslint 'src/**/*.{js,jsx,ts,tsx}' --fix",
     "integration-test": "start-server-and-test 'serve build -l 3000' http://localhost:3000 'cypress run'",
     "swap": "mkdir eth && mv build/* eth && mv eth build && serve build",
-    "updateCommons": "yarn upgrade common-fortcake-files"
+    "updateCommons": "yarn upgrade fortcake-config-files"
   },
   "browserslist": {
     "production": [
